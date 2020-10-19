@@ -37,3 +37,11 @@ To export an activated environment to a YML file:
 ```
 conda env export > path/to/environment.yml
 ```
+
+---
+
+To delete an environment:
+
+```
+conda remove --name my-env-name --all
+```
