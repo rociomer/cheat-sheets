@@ -17,6 +17,16 @@ nvidia-smi
 
 ---
 
+To monitor GPU usage:
+
+```
+nvidia-smi -l 1
+```
+
+The command above refreshes `nvidia-smi` every 1 second.
+
+---
+
 To run an interactive session (example):
 
 ```
