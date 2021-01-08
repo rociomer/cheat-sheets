@@ -8,6 +8,6 @@
 * *Git History* - Allows you to view git log and file history, and compare branches or commits
 * *GitLens -- Git supercharged* - Awesome extension, allows you to visualize code authorship at a glance, seamlessly navigate and explore Git repos, etc
 * *Jupyter* - Jupyter notebook support
-* * Pyright* - Static type checking for Python
+* *Pyright* - Static type checking for Python
 * *Python* - Linting, debugging, Jupyter notebooks, code formatting, refactoring, etc
 * *Python Docstring Generator*
