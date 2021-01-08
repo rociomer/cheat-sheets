@@ -3,8 +3,8 @@
 To show quota on drive, type:
 
 ```
-$module load quota
-$show_quota
+module load quota
+show_quota
 ```
 
 ---
@@ -27,26 +27,26 @@ The command above refreshes `nvidia-smi` every 1 second.
 
 ---
 
-To run an interactive session (example):
+To run an interactive session requesting a 1 day time limit and 28 GB RAM (example):
 
 ```
-$srun -p gpu -c 4 --mem=28g -N 1 --gres=gpu:1 -t 7-00:00:00 --pty /bin/bash
+srun -p gpu -c 4 --mem=28g -N 1 --gres=gpu:1 -t 1-00:00:00 --pty /bin/bash
 ```
 
 ---
 
-Example SLURM submission script for a GPU job:
+Example SLURM submission script for a GPU job that will run with a 5 hour time limit and is requesting 10 GB RAM:
 
 ```
 #!/bin/bash
 #SBATCH --job-name=my-job-name                # job name
 #SBATCH --output=my-job-name.o${SLURM_JOB_ID} # write STDOUT to this file
-#SBATCH --time=5:00:00                        # wall time dd-hh:mm:ss (dd = days, hh = hours, mm = minutes, ss = seconds)
+#SBATCH --time=5:00:00                        # wall time format is dd-hh:mm:ss (dd = days, hh = hours, mm = minutes, ss = seconds)
 #SBATCH --partition=gpu                       # -p, set the cluster partition to gpu
 #SBATCH --nodes=1                             # -N, node count
 #SBATCH --cpus-per-task=1                     # -c, cpu core count
 #SBATCH --gres=gpu:1                          # specify use of a generic resource (single gpu)
-#SBATCH --mem=50g                             # RAM requirement (on whichever type of specified node e.g. cpu or gpu)
+#SBATCH --mem=10g                             # RAM requirement (on whichever type of specified node e.g. cpu or gpu)
                                                                                 
 # put commands for executing job below this line                                
 export QT_QPA_PLATFORM='offscreen'            # for matplotlib backend
