@@ -1,7 +1,7 @@
 ### Useful [Visual Studio Code](https://code.visualstudio.com/) extensions
 
 * *One Dark Pro* - Atom's One Dark theme for VS Code
-* *Remote - SSH* - Allows you to open any folder on a remote machine using SSH and taking advantage of VS Code features
+* *Remote - SSH* - Allows you to open any folder on a remote machine using SSH and take advantage of VS Code features
 * *Remote - SHH: Editing Configuration Files*
 * *Remote - WSL* - Allows you to open any folder in the Windows Subsystem for Linux (WSL) and take advantage of VS Code features
 * *Vim* - Vim emulator for VS Code
