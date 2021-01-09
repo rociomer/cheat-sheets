@@ -1,6 +1,6 @@
 ### Useful commands for working with Jupyter notebooks
 
-To start Jupyter, first load environment where Jupyter is installed, then run:
+To start Jupyter, first load a conda environment where Jupyter is installed, then run:
 
 ```
 $jupyter-lab
