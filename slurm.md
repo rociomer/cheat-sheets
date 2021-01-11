@@ -57,7 +57,7 @@ Note that it is not good practice to request a lot more resources than what you 
 
 Interactive sessions are great during development, but if you have many large jobs to run, it is probably better to submit them as batch jobs.
 
-To run something on a specific GPU, if e.g. you would always like to use the same one on a device, or want to select one that is available, use:
+To run something on a specific GPU, if, for example, you would always like to use the same GPU on a device, or want to select one that is available (sometimes the "default" GPU is occupied), use:
 
 ```
 CUDA_VISIBLE_DEVICES=1 python example.py
