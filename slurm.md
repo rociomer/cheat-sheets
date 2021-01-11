@@ -55,7 +55,21 @@ srun -p gpu -c 1 --mem=10g -N 1 --gres=gpu:1 -t 0-05:00:00 --pty /bin/bash
 
 Note that it is not good practice to request a lot more resources than what you expect your job to use, as this will not only make it more difficult for you to get the resources you are requesting (e.g. longer queue time, depending on how many nodes are available and how many users are trying to use them), but also you are potentially blocking resources from others.
 
-Interactive sessions are greate during development, but if you have many large jobs to run, it is probably better to submit them as batch jobs.
+Interactive sessions are great during development, but if you have many large jobs to run, it is probably better to submit them as batch jobs.
+
+To run something on a specific GPU, if e.g. you would always like to use the same one on a device, or want to select one that is available, use:
+
+```
+CUDA_VISIBLE_DEVICES=1 python example.py
+```
+
+The above line will run the `example.py` script on GPU with ID 1 (change "1" to the ID of the GPU you want to use).
+
+Multiple GPUs can also be specified. For instance, to run a script on either GPU 0 or 1, type instead:
+
+```
+CUDA_VISIBLE_DEVICES=0,1 python example.py
+```
 
 ---
 
