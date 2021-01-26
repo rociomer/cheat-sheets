@@ -10,6 +10,7 @@ Overview:
 * [python.md](./python.md) - nice tools for working with Python
 * [slurm.md](./slurm.md) - useful commands for using SLURM
 * [tensorboard.md](./tensorboard.md) - useful commands for using Tensorboard
+* [vim.md](./vim.md) - a quick guide to using the Vim text editor
 * [vscode.md](./vscode.md) - useful VSCode extensions
 * [windows.md](./windows.md) - tools for working in Windows
 
