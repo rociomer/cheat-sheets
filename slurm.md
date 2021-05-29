@@ -135,3 +135,13 @@ In the above command, the following arguments are:
 
 
 Note that there are also many variables that you can use with SLURM, such as *${SLURM_JOB_ID}*, which will contain the job ID for a given job (see, for example, how I use it in *submit.sh*).
+
+---
+#### Other useful commands
+Not a SLURM command, but to check details on a running process on Linux, run:
+  
+```
+ps -Flww -p <pid>  
+```
+
+replacing <pid> with the process ID.
