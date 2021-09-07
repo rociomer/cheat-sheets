@@ -6,6 +6,11 @@ The Windows Subsystem for Linux lets you run a GNU/Linux environment -- includin
 
 To install WSL 2, follow the instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
+To access WSL files from Powershell (replace ${YOUR_USERNAME} with your real username):
+```
+ls '\\wsl$\Ubuntu\home\${YOUR_USERNAME}'
+```
+
 ---
 
 [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
