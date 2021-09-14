@@ -71,6 +71,18 @@ Multiple GPUs can also be specified. For instance, to run a script on either GPU
 CUDA_VISIBLE_DEVICES=0,1 python example.py
 ```
 
+To specify which node(s) on a given partition you would like the job to use, add the following line to your SLURM submission script:
+
+```
+#SBATCH --nodelist=node1,node2,node3
+```
+
+Conversely, to specify which node(s) NOT to use, add the following line to your submission script instead:
+
+```
+#SBATCH --exclude=node4,node5,node6
+```
+
 ---
 
 #### Commands for checking things
