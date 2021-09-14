@@ -5,6 +5,7 @@ This started as a list of commands I tend to forget (and keep on post-its by my 
 
 Overview:
 * [conda.md](./conda.md) - useful commands for using conda
+* [git.md](./git.md) - useful Git commands
 * [jupyter-notebooks.md](./jupyter-notebooks.md) - useful commands for working with Jupyter notebooks
 * [latex.md](./latex.md) - useful tools when using LaTeX
 * [python.md](./python.md) - nice tools for working with Python
