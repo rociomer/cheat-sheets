@@ -8,6 +8,8 @@
 * *Git History* - Allows you to view git log and file history, and compare branches or commits
 * *GitLens -- Git supercharged* - Great extension, allows you to visualize code authorship at a glance, seamlessly navigate and explore Git repos, and much more
 * *Jupyter* - Jupyter notebook support
-* *Pyright* - Static type checking for Python
+* *Pyright* or *Pylance* - Static type checking for Python
 * *Python* - Linting, debugging, Jupyter notebooks, code formatting, refactoring, etc
 * *Python Docstring Generator*
+
+If you would like to use a code formatter,  you can either use the *Prettier* extension, which you can install through VSCode, or [Black](https://github.com/psf/black), which you can install with pip and set up as per the following [instructions](https://code.visualstudio.com/docs/python/editing).
