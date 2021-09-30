@@ -110,6 +110,11 @@ module load quota
 show_quota
 ```
 
+To show detailed information for a specific node, use:
+```
+scontrol show node <node name>
+```
+
 
 To check available GPUs on a specific node, type:                              
 
