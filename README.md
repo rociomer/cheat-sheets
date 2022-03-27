@@ -10,6 +10,7 @@ Overview:
 * [latex.md](./latex.md) - useful tools when using LaTeX
 * [python.md](./python.md) - nice tools for working with Python
 * [slurm.md](./slurm.md) - useful commands for using SLURM
+* [supercloud.md](./superclod.md) - instructions for getting started with the Supercloud
 * [tensorboard.md](./tensorboard.md) - useful commands for using Tensorboard
 * [vim.md](./vim.md) - a quick guide to using the Vim text editor
 * [vscode.md](./vscode.md) - useful VSCode extensions
