@@ -61,3 +61,7 @@ vim my-example-file
 ---
 
 There are a TON more things you can do in Vim than what I have shown above, which make it a very powerful text editor. For example, check out [search and replace](https://vim.fandom.com/wiki/Search_and_replace), [recording macros](https://vim.fandom.com/wiki/Macros), and [Visual Blocks](https://www.youtube.com/watch?v=Ydzw70SvF-g), to name just a few features.
+
+---
+
+Link to [Vim Adventures](https://vim-adventures.com/) game.
